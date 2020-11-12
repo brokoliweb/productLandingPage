@@ -1,0 +1,63 @@
+body {
+padding: 20px;
+text-align: center;
+width: 90%;
+}
+
+p {
+    text-align: justify;
+    line-height:25px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    background-color: #7C85EB;
+    color: white;
+    padding: 5px;
+    top: 0;
+    width: 90%;
+    height: 200px;
+}
+
+iframe {
+    display: block;
+   max-width: 100%;
+    margin: auto;
+}
+
+form {
+    margin-top: 200px;
+    text-align: center;
+}
+
+#header-img {
+    height: auto;
+    width: 6%;
+    margin: 10px 10px;
+}
+
+a {
+    color: white;
+}
+
+section {
+    scroll-margin-top: 220px;
+}
+
+
+
+@media screen and (min-width: 750px) {
+    header {
+      height: 150px;
+    }
+    form {
+        margin-top: 150px;
+    }
+  }
+
+  
