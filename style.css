@@ -60,4 +60,10 @@ section {
     }
   }
 
+  footer {
+      background-color: #393D6B;
+      
+      color: white;
+      padding: 20px;
+  }
   
